@@ -6,7 +6,7 @@ const datos = {
  numberOfProducts: 8,
  type: "Hamburguesas",
  getProduct: function(){
-   return `Has ${this.numberOfProducts} and ${this.rating} of rating`
+   return `Has ${this.numberOfProducts} products and ${this.rating} rating`
  },
  getGeneralInfo: function(){
    return `This Uber Eats is from ${this.name} was created by ${this.author}`
