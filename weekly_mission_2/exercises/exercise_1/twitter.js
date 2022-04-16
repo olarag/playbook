@@ -9,7 +9,7 @@ const datos = {
  photos: 1897,
  bocation: "Hawthorne, CA",
  bio: "SpaceX designs, manufactures and launches the world’s most advanced rockets and spacecraft",
- getTotalTweetts: function(){
+ getTotalTweets: function(){
    return this.numberOfTweets + this.photos
  },
  getGeneralInfo: function(){
