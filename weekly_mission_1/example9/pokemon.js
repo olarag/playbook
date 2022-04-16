@@ -8,7 +8,10 @@ class Pokemon {
   }
 
   sayMessage(message) {
-    console.log('Mi pokemon ' + this.name + 'dice:' + message )
+    console.log('Mi pokemon ' + this.name + ' dice: ' + message )
   }
 
 }
+
+// Esta clase se exporta en este módulo
+module.exports = Pokemon
