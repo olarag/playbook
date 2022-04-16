@@ -11,11 +11,11 @@ const datos = {
    return this.numberOfPosts + this.photos
  },
  getGeneralInfo: function(){
-   return `This Twitter is from ${this.name} was created by ${this.author} and has ${this.followers} followers`
+   return `This Facebook is from ${this.name} was created by ${this.author} and has ${this.followers} followers`
  }
 }
 
 console.log("Nombre del usuario:" + datos.name)
 console.log("Biografía del usuario:" + datos.bio)
-console.log("Tweets totales y media: " + datos.getTotalPosts())
+console.log("Posts totales y media: " + datos.getTotalPosts())
 console.log(datos.getGeneralInfo())
